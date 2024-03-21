@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+.xmen{
+     /*posicion de la imagen*/
+    position: fixed; /*Las propiedades top, right, bottom, y left especifican el desplazamiento desde los bordes del bloque contenedor (en-US) del elemento.*/
+    top:50%;
+    left:50%;
+    border-radius: 40%;
+    transform: translate(-50%,-50%);
+    /*Estilo de la imagen*/
+    min-width: 700px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/XmenOff.png);
+}
+
+.xmen_activo{
+    background-image: url(../img/XmenOn.gif);
+}
+
+.xmen_boton{
+    /*posicion del boton*/
+    margin: 124px auto 0;
+    /*Estilodel boton*/
+    width: 100%;
+    height: 250px;
+   /* border: 1px solid red;*/
+}

@@ -3,16 +3,16 @@ let estado_golpe ="apagado";
 
 /**Sonidos*/
 let sonido_xmen = document.querySelector("#xmen_encendido");
-let sonido_boton = docment.querySelector("#xmen_click");
+let sonido_boton = document.querySelector("#xmen_click");
 
 /* divs */
 let xmen = document.querySelector(".xmen");
-let boton = docment.querySelector(".xmen_boton");
+let boton = document.querySelector(".xmen_boton");
 
 /*boton.addEventListener(click, ()=>{
     controlarGolpe()
 })*/
-xmen_boton.addEventListener("click",controlar_golpe)
+boton.addEventListener("click",controlar_golpe)
 
 function controlar_golpe() {
     if(estado_golpe == "apagado") {
